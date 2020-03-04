@@ -10,6 +10,7 @@ public class MusicPlayer {
 
     @Value("${musicPlayer.volume}")
     double volume;
+    //dwa*/adwaddwa
 
     public MusicPlayer(List<MusicI> music) {
         this.music = music;
