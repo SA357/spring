@@ -8,7 +8,7 @@ import java.util.Random;
 
 public class MusicPlayer {
 
-    List<MusicI> music = new ArrayList<>();
+    List<MusicI> music;
 
     @Value("${musicPlayer.volume}")
     double volume;
