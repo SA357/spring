@@ -9,7 +9,7 @@ public class MusicPlayer {
     List<MusicI> music;
 
     @Value("${musicPlayer.volume}")
-    double volume;//
+    double volume;
 
     public MusicPlayer(List<MusicI> music) {
         this.music = music;
